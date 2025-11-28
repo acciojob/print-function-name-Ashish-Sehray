@@ -1,6 +1,7 @@
 //your JS code here. If required.
-function Ashish(){
-	return arguments.callee.name;
+function functionName() {
+    alert(arguments.callee.name);
 }
 
-alert(Ashish())
+// Call the function to see the result
+functionName();
